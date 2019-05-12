@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="anchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Button fx:id="updateBtn" alignment="CENTER" layoutX="172.0" layoutY="383.0" mnemonicParsing="false" text="Submit" />
+      <Text layoutX="172.0" layoutY="81.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lab2">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Text>
+      <Text layoutX="47.0" layoutY="163.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome to installation screen" textAlignment="CENTER">
+         <font>
+            <Font name="System Italic" size="23.0" />
+         </font>
+      </Text>
+      <Button fx:id="browseBtn" layoutX="280.0" layoutY="237.0" mnemonicParsing="false" text="Browse" />
+      <TextField fx:id="textField" layoutX="27.0" layoutY="238.0" prefHeight="26.0" prefWidth="236.0" />
+   </children>
+</AnchorPane>
